@@ -25,7 +25,7 @@ URL="${URL%/}"
 payload="$(cat <<JSON
 {
   "time": ${TS_MS},
-  "text": "Deployed ${APP} to ${ENVIRONMENT} (version ${VERSION}) by ${ACTOR}",
+  "text": "Deployed ${APP} to ${ENV} (version ${VERSION}) by ${ACTOR}",
   "tags": [
     "release",
     "app:${APP}",

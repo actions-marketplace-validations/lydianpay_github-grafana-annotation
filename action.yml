@@ -1,0 +1,14 @@
+name: 'Github Grafana Annotation'
+description: 'Github action to add annotations to Grafana'
+author: 'Lydian'
+runs:
+  using: 'docker'
+  image: Dockerfile
+outputs:
+  currentVersion:
+    description: 'Current highest version tag'
+  newVersion:
+    description: 'The newly calculated version'
+branding:
+  icon: 'git-merge'
+  color: 'purple'
